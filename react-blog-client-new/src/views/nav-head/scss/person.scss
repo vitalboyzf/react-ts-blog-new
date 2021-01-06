@@ -1,0 +1,32 @@
+.personWrapper {
+    width: 100%;
+    height: 400px;
+    padding: 5vw 10vw;
+
+    .person-info {
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .form {
+        .item {
+            margin-top: 20px;
+
+            &.sex {
+                label {
+                    margin: 0 20px;
+
+                    span {
+                        margin: 0 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .btn {
+        margin-top: 20px;
+        text-align: center;
+    }
+}

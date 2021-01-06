@@ -1,0 +1,45 @@
+@media screen and (min-width:900px) {
+    .replyWrapper {
+        position: fixed;
+        width: 520px;
+        height: 260px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, .2);
+        z-index: 100;
+        padding: 40px 20px;
+
+        .icon {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            color: #fff;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .textarea {
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width:900px) {
+    .replyWrapper {
+        position: fixed;
+        width: 90vw;
+        height: 30vh;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, .2);
+        z-index: 100;
+        padding: 40px 20px;
+
+        .textarea {
+            font-size: 3vw;
+            width: 100%;
+        }
+    }
+}

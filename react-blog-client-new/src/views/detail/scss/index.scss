@@ -1,0 +1,56 @@
+.detail {
+  background-color: #fff;
+  padding: 0px 15px;
+
+  .title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .intro {
+    font-weight: bold;
+    margin: 20px 0;
+    color: #ff9900;
+    font-size: 19px;
+  }
+
+  .footer {
+    text-align: right;
+
+    span {
+      font-weight: bold;
+    }
+
+    .date {
+      margin-left: 5vw;
+      padding-right: 5vw;
+      box-sizing: border-box;
+    }
+
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .content {
+
+
+    p {
+      text-indent: 2em;
+    }
+
+    img {
+      width: 80%;
+      max-height: 300px;
+    }
+  }
+}
+
+
+@media screen and (max-width:900px) {
+  .footer {
+    .date {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,113 @@
+@media screen and (min-width:900px) {
+  .headWrapper {
+    width: 100%;
+    height: 60px;
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+
+    .nav-head {
+      height: 60px;
+      text-align: center;
+      user-select: none;
+      display: flex;
+      justify-content: space-between;
+      color: #cccccc;
+      width: 900px;
+      margin: 0 auto;
+
+      .logo {
+        overflow: hidden;
+
+        img {
+          width: 30px;
+          vertical-align: middle;
+        }
+
+        span {
+          line-height: 60px;
+          margin: 15px;
+          font-size: 20px;
+          color: #888;
+        }
+      }
+
+      .nav-link {
+        a {
+          margin: 20px;
+          line-height: 60px;
+          font-size: 16px;
+          color: #fff;
+
+          &.active {
+            color: #f90;
+          }
+        }
+      }
+
+      .user {
+        img {
+          width: 20px;
+          border-radius: 50%;
+          overflow: hidden;
+          position: relative;
+        }
+
+        span {
+          line-height: 60px;
+          margin-left: 10px;
+        }
+
+        .user-detail {
+          background-color: #aaa;
+          width: 300px;
+          height: 500px;
+          position: absolute;
+          right: 310px;
+          z-index: 100;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:900px) {
+  .headWrapper {
+    width: 100%;
+    height: 10vh;
+    background-color: #222;
+
+    .nav-controller {
+      height: 100%;
+      font-size: 3vh;
+    }
+
+    .title {
+      font-size: 3vh;
+      color: #fff;
+      margin-left: 50px;
+    }
+  }
+
+  // 导航抽屉
+  .drawer {
+    font-size: 6vh;
+
+    .nav-link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      a {
+        // display: block;
+        font-size: 20px;
+        font-weight: bold;
+
+        &:not(:first-of-type) {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}

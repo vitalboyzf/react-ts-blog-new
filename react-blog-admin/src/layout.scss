@@ -1,0 +1,77 @@
+:root,
+body,
+#root {
+  height: 100%;
+}
+
+.ant-layout-has-sider {
+  height: 100%;
+
+  .logo {
+    color: #fff;
+    text-align: center;
+    height: 64px;
+    line-height: 64px;
+    background-color: rgb(0, 21, 41);
+    border: 1px solid;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .ant-menu {
+    margin-top: 100px;
+  }
+
+  .trigger {
+    background-color: rgb(8, 55, 99);
+    color: #fff;
+    padding: 10px;
+  }
+
+  .ant-menu-sub {
+    margin-top: 0;
+  }
+
+  .layout-content {
+    margin: 24px 16px;
+    padding: 15px;
+  }
+
+  .ant-layout-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .user {
+      margin-right: 20px;
+
+      span {
+        &.welcome {
+          color: #fff;
+          font-size: 20px;
+          margin-left: 500px;
+
+          .user-name {
+            color: #f90;
+          }
+        }
+      }
+
+      button {
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+// .ant-layout-has-sider {
+//   background-color: #904;
+//   height: 100%;
+//   .ant-layout-sider{
+
+//   }
+//   .ant-menu {
+//     margin: 0;
+//   }
+// }

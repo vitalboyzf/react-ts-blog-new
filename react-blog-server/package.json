@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-json-error": "^3.1.2",
+    "koa-jwt": "^4.0.0",
+    "koa-parameter": "^3.0.1",
+    "koa-router": "^9.4.0",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.10.11"
+  }
+}

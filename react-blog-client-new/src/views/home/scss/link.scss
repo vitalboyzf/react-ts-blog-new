@@ -1,0 +1,33 @@
+.link-container {
+  position: absolute;
+  background-color: #d4ff66;
+  right: 0;
+  top: 750px;
+  height: 270px;
+  border-radius: 10px;
+  padding: 15px;
+  width: 30%;
+  background: linear-gradient(-30deg, #eee, #fff, #eee);
+  border: 1px solid #ff9900;
+
+  .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid;
+  }
+
+  .link-item {
+    margin: 7px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    white-space: nowrap;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .link-container {
+    display: none
+  }
+}

@@ -1,0 +1,29 @@
+.ant-space-item {
+  span {
+    color: red;
+    width: 60px;
+    display: block;
+
+    &:hover {
+      background-color: #ccc;
+      border-radius: 8px;
+    }
+  }
+}
+
+table {
+  .ant-table-thead {
+    .ant-table-cell {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 20px;
+      font-weight: 800;
+    }
+  }
+
+  .ant-table-cell {
+    min-width: 100px;
+    font-weight: 800;
+
+  }
+}

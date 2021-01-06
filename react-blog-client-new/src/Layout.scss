@@ -1,0 +1,45 @@
+@import '~antd/dist/antd.css';
+
+@media screen and (min-width: 960px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    background: url(./assets/img/2.png);
+
+
+    .layout-container {
+      padding-top: 60px;
+      width: 100%;
+
+      .main {
+        width: 900px;
+        padding: 10px;
+        margin: 10px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        background-color: rgba(255, 255, 255, .5);
+        box-shadow: 3px 4px 4px #888, -3px -3px 4px #888;
+
+        .picture div {
+          margin: 15px 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+
+    .active {
+      color: #f90 !important;
+    }
+  }
+}

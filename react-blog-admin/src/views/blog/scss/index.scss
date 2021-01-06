@@ -1,0 +1,25 @@
+.ant-table-wrapper {
+  .ant-table-cell {
+    //padding:10px 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .btn {
+    span {
+      color: #fff;
+      padding: 3px 8px;
+      border-radius: 5px;
+
+      &.update {
+        background-color: #0f0;
+      }
+
+      &.delete {
+        margin-left: 5px;
+        background-color: #f00;
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+@media screen and (min-width: 900px) {
+  .mood-essay-header {
+    width: 100%;
+    border-bottom: 1px solid #222;
+    position: relative;
+
+    span {
+      display: inline-block;
+      width: 80px;
+      //height: 10px;
+      background-color: #f60;
+      padding: 3px 9px;
+      color: #fff;
+      text-align: center;
+    }
+
+    i {
+      position: absolute;
+      right: 0;
+      color: #888;
+    }
+
+    .to-home {
+      background-color: #f90;
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .mood-essay-header {
+    width: 100%;
+    border-bottom: 1px solid #222;
+    position: relative;
+
+    span {
+      display: inline-block;
+      width: 60px;
+      font-size: 2vh;
+      //height: 10px;
+      background-color: #f60;
+      padding: 2px 3px;
+      color: #fff;
+      text-align: center;
+    }
+
+    i {
+      position: absolute;
+      right: 0;
+      bottom: .3vh;
+      color: #888;
+      font-size: 2vh;
+      margin-right: 10px;
+    }
+
+    .to-home {
+      background-color: #f90;
+    }
+  }
+}

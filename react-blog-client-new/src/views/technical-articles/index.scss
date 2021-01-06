@@ -1,0 +1,170 @@
+@media screen and (min-width: 900px) {
+  .technicalArticleWrapper {
+    .search {
+      width: 99%;
+      text-align: center;
+      margin-top: 20px;
+
+      input {
+        border: none;
+        height: 30px;
+        width: 300px;
+        border-bottom: 1px solid #333;
+        background-color: transparent;
+        margin-right: 20px;
+        font-weight: 600;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    .blog-show {
+      width: 100%;
+      padding: 10px 15px;
+
+      .blog-item {
+        user-select: none;
+        margin-top: 20px;
+        background-color: #fff;
+        display: flex;
+        border: 1px solid #888888;
+        padding: 10px 15px;
+        box-shadow: 3px 4px 2px #888888;
+
+        .show-main {
+          display: inline-block;
+          margin-left: 20px;
+          position: relative;
+          min-height: 110px;
+          width: 100%;
+
+          .title {
+            font-size: 23px;
+            font-weight: bold;
+            color: #555;
+          }
+
+          .intro {
+            font-size: 13px;
+            color: #888888;
+            overflow: hidden;
+            height: 40px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+          }
+
+          .footer {
+            position: relative;
+            width: 100%;
+            right: 0;
+            left: 0;
+            bottom: -18px;
+          }
+        }
+      }
+    }
+
+    .search {
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+
+      input {
+        border: none;
+        height: 30px;
+        border-bottom: 1px solid #333;
+        background-color: transparent;
+        margin-right: 20px;
+        font-weight: 600;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .technicalArticleWrapper {
+    .search {
+      width: 99%;
+      text-align: center;
+      margin-top: 20px;
+
+      input {
+        border: none;
+        height: 30px;
+        width: 33vw;
+        border-bottom: 1px solid #333;
+        background-color: transparent;
+        margin-right: 20px;
+        font-weight: 600;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    .blog-show {
+      .blog-item {
+        width: 98%;
+        height: 88px;
+        user-select: none;
+        margin-top: 20px;
+        background-color: #fff;
+        display: flex;
+        border: 1px solid #888888;
+        padding: 3px 8px;
+        box-shadow: 1px 2px 2px #888888;
+        border-radius: 20px;
+
+        .show-main {
+          display: inline-block;
+          margin-left: 5px;
+          position: relative;
+          min-height: 30px;
+          width: 100%;
+          padding: 2px;
+          min-width: 0;
+          box-sizing: border-box;
+
+          .title {
+            font-size: 3vh;
+            font-weight: bold;
+            color: #555;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+          }
+
+          .intro {
+            font-size: 13px;
+            color: #888888;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+          }
+
+          .footer {
+            position: absolute;
+            width: 100%;
+            bottom: 3px;
+            font-size: 1.4vh;
+
+            span {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}

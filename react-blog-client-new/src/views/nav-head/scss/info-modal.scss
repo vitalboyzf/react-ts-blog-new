@@ -1,0 +1,34 @@
+.InfoModal {
+    background-color: rgba(0, 0, 0, .8);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 60px;
+    left: 1010px;
+
+    .person-info {
+        font-size: "20px";
+        margin-top: "20px";
+    }
+
+    .form {
+        .item {
+            margin-top: 20px;
+
+            &.sex {
+                label {
+                    margin: 0 20px;
+
+                    span {
+                        margin: 0 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .btn {
+        margin-top: 20px;
+        text-align: center;
+    }
+}

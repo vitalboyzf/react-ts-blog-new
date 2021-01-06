@@ -1,0 +1,67 @@
+.addBlogContainer {
+
+    .title {
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+
+            input {
+                border: none;
+                background-color: #ddd;
+                border-bottom: 1px solid #eee;
+
+                &:focus {
+                    outline: none;
+                    border-radius: 5px;
+                    border-bottom: 1px solid #777;
+
+                }
+            }
+        }
+    }
+
+    .intro-upload {
+        display: flex;
+        align-items: center;
+
+        .cover-upload {
+            margin-left: 100px;
+        }
+
+        .intro {
+            textarea {
+                border: none;
+                border-bottom: 1px solid #888;
+
+                &:focus {
+                    outline: none;
+                    border-radius: 5px;
+                }
+
+            }
+        }
+    }
+
+
+    .btn {
+        text-align: center;
+        margin-top: 10px;
+
+        button {
+            margin: 0 5px;
+            width: 100px;
+            border-radius: 5px;
+            transition: all .5s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        .clear {
+            background: #f00;
+
+
+        }
+    }
+}

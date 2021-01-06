@@ -1,0 +1,10 @@
+const Router = require("koa-router");
+const router = new Router({ prefix: "/message" });
+const { addMessage, queryRootMessage, queryRootMessageByPage, deleteMessageById, queryMessageByFatherId } = require("../controller/messageCTL");
+const authentication = require("../middleware/authentication");
+router.post("/", authentication, addMessage);
+router.get("/", queryRootMessage);
+router.get("/queryRootMessageByPage", queryRootMessageByPage);
+router.delete("/:id", authentication, deleteMessageById);
+router.get("/queryByFather", queryMessageByFatherId);
+module.exports = router;   

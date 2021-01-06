@@ -1,0 +1,17 @@
+.modal-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container p {
+    font-size: 50px;
+    font-weight: 600;
+
+}

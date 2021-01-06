@@ -1,0 +1,132 @@
+@media screen and (min-width:900px) {
+  .loginWrapper {
+    width: 900px;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+
+  }
+
+  .form {
+    text-align: right;
+    width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, .9);
+    box-shadow: 2px 2px 3px #888;
+  }
+
+  .form span {
+    color: #333;
+    font-weight: bold;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .form input {
+    border: none;
+    border: 1px solid #888;
+    border-radius: 20px;
+    padding: 3px 8px;
+  }
+
+  .form input:focus {
+    outline: none;
+  }
+
+  .item {
+    width: 350px;
+    margin: 20px 0;
+  }
+
+  .btn {
+    text-align: center;
+  }
+
+  .btn button {
+    width: 100px;
+  }
+
+  .btn button:hover span {
+    color: #f40;
+  }
+
+  .login {
+    background-color: #73f;
+  }
+
+  .register {
+    background-color: #ff0;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .loginWrapper {
+    width: 100vw;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    text-align: center;
+  }
+
+  .form {
+    text-align: center;
+    width: 100%;
+    margin: 100px auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .9);
+    box-shadow: 2px 2px 3px #888;
+  }
+
+  .form span {
+    color: #333;
+    font-weight: bold;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .form input {
+    border: none;
+    border: 1px solid #888;
+    border-radius: 20px;
+    padding: 3px 8px;
+  }
+
+  .form input:focus {
+    outline: none;
+  }
+
+  .item {
+    width: 350px;
+    margin: 20px 0;
+  }
+
+  .btn {
+    text-align: center;
+  }
+
+  .btn button {
+    width: 100px;
+  }
+
+  .btn button:hover span {
+    color: #f40;
+  }
+
+  .login {
+    background-color: #73f;
+  }
+
+  .register {
+    background-color: #ff0;
+  }
+}
