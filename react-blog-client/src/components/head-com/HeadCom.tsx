@@ -1,11 +1,11 @@
-import React from "react";
+import { ReactNode } from "react";
 import { withRouter, RouteComponentProps } from "react-router-dom";
 import "./index.scss";
 interface IProps extends RouteComponentProps {
     content?: string
     title: string
     history: any
-    children?: React.ReactNode
+    children?: ReactNode
 }
 
 function HeadCom(props: IProps) {

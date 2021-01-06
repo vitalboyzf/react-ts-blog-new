@@ -1,4 +1,4 @@
-const Sentences = require("../models/SentencesDao");
+const Sentences = require("../models/sentencesDao");
 class SentencesCTL {
     async add(ctx) {
         console.log("add", Sentences.find());

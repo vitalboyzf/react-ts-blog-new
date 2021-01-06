@@ -12,7 +12,7 @@ router.get("/:id", findById);
 // 添加用户
 router.post("/", add);
 // 修改用户
-router.patch("/:id", authentication, update);
+router.patch("/:id", update);
 // 删除用户
 router.delete("/:id", authentication, del);
 router.post("/login", login);

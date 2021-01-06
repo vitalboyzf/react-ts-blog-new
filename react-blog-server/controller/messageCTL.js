@@ -1,4 +1,4 @@
-const Message = require("../models/MessageDao");
+const Message = require("../models/messageDao");
 class MessageCTL {
     async addMessage(ctx) {
         ctx.verifyParams({

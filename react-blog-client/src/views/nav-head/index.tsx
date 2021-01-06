@@ -29,6 +29,10 @@ function NavHead(props: RouteComponentProps) {
         setShow(!show);
     };
     const logoClick = () => {
+        if (user && user.name === "张斐") {
+            window.location.replace("/react-blog-admin")
+            return;
+        }
         props.history.push("/home");
     };
     const closeInfoModal = () => {

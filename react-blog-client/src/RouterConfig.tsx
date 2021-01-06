@@ -1,6 +1,6 @@
 import { lazy, Suspense } from "react";
 import "./Layout.scss";
-import { Route, BrowserRouter, Redirect, Switch } from "react-router-dom";
+import { Route, HashRouter as Router, Switch } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./store";
 import Home from "./views/home";
@@ -20,12 +20,13 @@ const Person = lazy(() => import("./views/nav-head/Person"));
 const RouterConfig = () => {
     return (
         <Provider store={store}>
-            <BrowserRouter>
+            <Router>
                 <NavHead />
                 <div className="layout-container">
                     <div className="main">
                         <Suspense fallback={<Loading />}>
                             <Switch>
+                                <Route exact path={"/"} component={Home} />
                                 <Route path={"/home"} component={Home} />
                                 <Route path={"/technical-articles"} component={TechnicalArticles} />
                                 <Route path={"/about"} component={About} />
@@ -36,13 +37,13 @@ const RouterConfig = () => {
                                 <Route path={"/login"} component={Login} />
                                 <Route path={"/register"} component={Register} />
                                 <Route path={"/person"} component={Person} />
-                                <Redirect to={"/home"} />
+                                {/* <Redirect to={"/home"} /> */}
                             </Switch>
                         </Suspense>
                     </div>
                     <Footer></Footer>
                 </div>
-            </BrowserRouter>
+            </Router>
         </Provider>
     );
 };

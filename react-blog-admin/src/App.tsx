@@ -34,8 +34,9 @@ export default memo(function App() {
     setCollapsed(!collapsed);
   };
   function logoutController() {
-    window.localStorage.removeItem("token");
-    window.location.replace("/login");
+    // window.localStorage.removeItem("token");
+    // window.location.reload()
+    window.location.replace("/react-blog");
   }
 
   return (
@@ -55,7 +56,7 @@ export default memo(function App() {
                   {user.name}
                 </span>
               </span>
-              <Button danger onClick={logoutController}>退出登录</Button>
+              <Button danger onClick={logoutController}>退出</Button>
             </div>
           </Header>
           <Content className="layout-content">
