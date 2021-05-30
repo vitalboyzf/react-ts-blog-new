@@ -1,4 +1,3 @@
-import React from "react";
 import HeadCom from "../../components/head-com/HeadCom";
 
 function About() {
@@ -65,11 +64,6 @@ function About() {
                         还跟高中似的傻傻做题。
                     </p>
                     <p style={{ textIndent: "2em" }}>
-                        挂科也有挂科的好处，不仅打醒了颓废的我，还让我在考场捡到一个媳妇，嘿嘿，
-                        大一下学期，我就开始认真学习java了，游戏玩的渐渐少了，经常出去找媳妇玩，
-                        看看电影，吃点好吃的，逛逛公园，打打代码。
-                    </p>
-                    <p style={{ textIndent: "2em" }}>
                         大一结束的那个暑假，我结识了渡一教育，开始没日没夜的跟着阿拓老师学java，说实话
                         阿拓老师讲的课确是比大学细致多了，这样每天学习五六个小时，经常去网上查查java的
                         学习路线，javase学完学些什么，直到看到网页制作的html,当时已经快要看完javase的视频
@@ -79,7 +73,7 @@ function About() {
                     <p style={{ textIndent: "2em" }}>
                         其实什么编程语言并不重要，也没有什么可比性，存在即合理，重要的是编程思维，和
                         设计思想，提升编程思维的最快的方法就是做算法题，框架和库是学不完的，重要的是核心理念
-                        和语言基础，前端未来可期
+                        和语言基础，未来可期
                     </p>
                     <div style={{ textAlign: "right", marginTop: "20px" }}>我的qq:1434110591</div>
                 </div>

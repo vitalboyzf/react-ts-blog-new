@@ -3,11 +3,15 @@ import "./scss/link.scss";
 const linkArr = [
     {
         title: "我的github",
-        url: "https://github.com/zfnb?tab=repositories"
+        url: "https://github.com/vitalboyzf?tab=repositories"
     },
     {
         title: "照片墙",
         url: "http://49.232.250.47/coolpicture/"
+    },
+    {
+        title: "电影后台管理",
+        url: "http://49.232.250.47/movie"
     },
     {
         title: "vue版管理系统",
@@ -21,11 +25,7 @@ const linkArr = [
         title: "井字棋游戏",
         url: "http://49.232.250.47/react-game/"
     },
-
-    {
-        title: "react管理系统",
-        url: "http://49.232.250.47/react-manage/#/login"
-    },
+  
     {
         title: "俄罗斯方块游戏",
         url: "http://49.232.250.47/tetris/"
@@ -34,7 +34,6 @@ const linkArr = [
         title: "袁进技术博客",
         url: "http://blog.yuanjin.tech/"
     },
-
     {
         title: "余斗余斗",
         url: "https://www.yudouyudou.com/"

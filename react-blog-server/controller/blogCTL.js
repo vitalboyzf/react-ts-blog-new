@@ -11,7 +11,6 @@ class BlogCTL {
     async queryBlogByPage(ctx) {
         const page = Math.max(ctx.query.page * 1, 1) - 1;
         const limit = Math.max(ctx.query.limit * 1, 1);
-        console.log(page, limit);
         const data = await Blog.find().sort({ publish_date: -1 }).limit(limit).skip(page * limit);
         const total = await Blog.find();
         ctx.body = {

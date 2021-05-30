@@ -45,6 +45,8 @@ function* getUser() {
 }
 function* querySentence() {
     const result = yield call(getSentences);
+    console.log(result);
+
     if (result.status === 200) {
         yield put(sentenceActionCreator.getSentences(result.data));
     }
@@ -55,6 +57,7 @@ function* queryComment() {
 }
 function* queryMessage() {
     const { data } = yield call(queryRootMessage);
+
     let messages: MessageSchema[] = data;
     const newArrPromise = messages.map(async rootMessage => {
         return queryMessageByFatherId(rootMessage._id).then((res: any) => {
